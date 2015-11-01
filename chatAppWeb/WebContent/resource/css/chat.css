@@ -1,0 +1,21 @@
+body {
+ font-family: sans-serif;
+}
+
+#output {
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 500px;
+}
+   #output div {
+     padding: 10px;
+   }
+   #output div:nth-child(even) {
+     background-color: #ccc;
+   }
+
+panel {
+ display: block;
+ padding: 20px;
+ border: 1px solid #ccc;
+}

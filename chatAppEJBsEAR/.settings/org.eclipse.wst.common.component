@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="chatAppEJBsEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="chatAppEJBs.jar" deploy-path="/" handle="module:/resource/chatAppEJBs/chatAppEJBs">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chatAppEJBsClient.jar" deploy-path="/" handle="module:/resource/chatAppEJBsClient/chatAppEJBsClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="chatAppWeb.war" deploy-path="/" handle="module:/resource/chatAppWeb/chatAppWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
