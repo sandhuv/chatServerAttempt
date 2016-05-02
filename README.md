@@ -1,1 +1,6 @@
-# Peer to Peer Chat Server, with friend list & presence status
+# PeerToPeer Chat servers using 
+Message Driven Beans, JMS,CDI & EJBs & websockets.
+
+- contact request
+- friend list
+- presence status
